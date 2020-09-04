@@ -1,17 +1,19 @@
-// But : Créer un programme qui affiche un message à l'écran en sauvegardant plusieurs versions de ce programme avec git et de l'héberger sur la plateforme GitHub.
+// But : CrÃ©er un programme qui affiche un message Ã  l'Ã©cran en sauvegardant plusieurs versions de ce programme avec git et de l'hÃ©berger sur la plateforme GitHub.
 // Auteur : Pierre-Olivier Landry
 // Date : 2020-09-04
 
-#include <iostream>		// Intègre le coffre à outils pour afficher è l'écran (o out output : sortie)
-						// ou pour lire sur le clavier (i in input : entrée)
+#include <iostream>		// IntÃ¨gre le coffre Ã  outils pour afficher Ã¨ l'Ã©cran (o out output : sortie)
+						// ou pour lire sur le clavier (i in input : entrÃ©e)
 
-int main(/*Liste des paramètres séparés par une virgule le cas échéant*/)
+int main(/*Liste des paramÃ¨tres sÃ©parÃ©s par une virgule le cas Ã©chÃ©ant*/)
 {
-	// Pour corriger les caractères accentués
+	// Pour corriger les caractÃ¨res accentuÃ©s
 	setlocale(LC_ALL, "");
-
-	// Affichage du message à l'écran
-	std::cout << "Bienvenue à tous !";
+	
+	// Test GitHub
+	
+	// Affichage du message Ã  l'Ã©cran
+	std::cout << "Bienvenue Ã  tous !";
 
 	return 0;
 }
